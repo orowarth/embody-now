@@ -1,0 +1,50 @@
+/* src/theme.css */
+:root {
+  /* Colors (Eyedropped from your design) */
+  --color-primary: #374a7b;       /* The deep blue */
+  --color-secondary-bg: #e1e6ef; /* The light blue/grey background */
+  --color-text-dark: #222222;      /* The off-black for text */
+  --color-text-light: #ffffff;     /* The white text */
+  --color-background: #ffffff;    /* The page background */
+
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Lato', sans-serif;
+
+  /* Spacing & Sizing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+  --content-width: 960px; /* Max width for centered content */
+
+  /* Borders & Shadows */
+  --border-radius-standard: 12px;
+  --box-shadow-subtle: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Global Resets and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-text-dark);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
