@@ -1,0 +1,66 @@
+.service-card {
+  padding: var(--spacing-lg);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.service-card.variant-dark {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+.service-card.variant-light {
+  background-color: var(--color-secondary-bg);
+  color: var(--color-text-dark);
+}
+
+.service-card h3 {
+  font-size: 1.8rem;
+}
+.service-card .service-card-subtitle {
+  font-style: italic;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.9;
+}
+
+.service-card.shape-top-left { border-top-left-radius: 60px; }
+.service-card.shape-top-right { border-top-right-radius: 60px; }
+.service-card.shape-bottom-left { border-bottom-left-radius: 60px; }
+.service-card.shape-bottom-right { border-bottom-right-radius: 60px; }
+
+.service-card-buttons {
+  margin-top: auto;
+  padding-top: var(--spacing-md);
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.service-button {
+  flex: 1;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: none;
+  border-radius: var(--border-radius-standard);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.variant-dark .service-button {
+  background-color: var(--color-text-light);
+  color: var(--color-primary);
+}
+.variant-light .service-button {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+.service-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
