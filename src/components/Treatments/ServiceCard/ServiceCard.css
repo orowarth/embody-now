@@ -64,3 +64,27 @@
   transform: translateY(-2px);
   opacity: 0.9;
 }
+
+@media (max-width: 768px) {
+  .service-card.shape-top-right {
+    border-top-right-radius: 20px;
+  }
+  
+  .service-card.shape-bottom-left {
+    border-bottom-left-radius: 20px;
+  }
+
+  .treatments-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: stretch;
+  }
+  .is-offset {
+    min-height: auto;
+  }
+
+  .grid-image-wrapper {
+    height: auto;
+    max-height: 250px;
+  }
+}
