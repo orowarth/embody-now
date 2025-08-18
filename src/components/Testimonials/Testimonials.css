@@ -1,0 +1,110 @@
+.testimonials-section {
+  padding: var(--spacing-xl) 0;
+}
+
+.testimonials-intro {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+.testimonials-intro h2 {
+  font-size: 3rem;
+}
+.testimonials-intro p {
+  font-style: italic;
+}
+
+.carousel-wrapper {
+  position: relative;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.testimonial-card {
+  background-color: var(--color-background);
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius-standard);
+  box-shadow: var(--box-shadow-subtle);
+  min-height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.testimonial-content {
+  text-align: center;
+}
+
+.testimonial-card.is-animating {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.testimonial-quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: var(--spacing-md);
+}
+
+.testimonial-name {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.carousel-button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+.carousel-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.carousel-button.prev {
+  left: 0px;
+}
+
+.carousel-button.next {
+  right: 0px;
+}
+
+@media (max-width: 900px) {
+  .carousel-wrapper {
+    padding-bottom: 60px;
+  }
+  .carousel-button {
+    top: auto;
+    bottom: 0;
+  }
+  .carousel-button.prev {
+    left: 30%;
+    transform: translateX(-50%);
+  }
+  .carousel-button.next {
+    right: 30%;
+    transform: translateX(50%);
+  }
+}
