@@ -11,8 +11,8 @@ export function Hero() {
             Restore Vitality
           </h1>
           <p>
-            Through the combined wisdom of Biodynamic Craniosacral Therapy, Qi Gong Somatic
-            Enquiry, experience body-led, trauma-aware support to soften stress, restore
+            Through the combined wisdom of Biodynamic Craniosacral Therapy, Qi Gong and Somatic
+            Enquiry, experience body-led, guided support to soften stress, restore
             balance, and return to your natural vitality.
           </p>
         </div>

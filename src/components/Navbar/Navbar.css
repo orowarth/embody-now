@@ -64,12 +64,6 @@
 .nav-link:hover::after {
   width: 100%;
 }
-.nav-link.active {
-  color: var(--color-primary);
-}
-.nav-link.active::after {
-  width: 100%;
-}
 .hamburger-menu, .navbar-links-mobile {
   display: none;
 }

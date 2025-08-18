@@ -1,7 +1,7 @@
 .service-page-container {
   max-width: var(--content-width);
   margin: 0 auto;
-  padding: var(--spacing-xl) var(--spacing-lg);
+  padding-top: 80px;
 }
 
 .service-page-container h1 {

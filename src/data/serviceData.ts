@@ -1,5 +1,6 @@
 import qigongBanner from '../assets/somatic-qi-gong.jpg';
 import cranioPage from '../assets/cranio-page.jpg';
+import somaticPage from '../assets/som-enq.jpg'
 
 export interface ServicePageData {
   title: string;
@@ -91,6 +92,7 @@ export const services: Record<string, ServicePageData> = {
       text: 'I didn’t realise how disconnected I’d become from my own body. Large parts of me felt numb or absent, and that disconnection seeped into my daily life — I was only half-present, not fully inhabiting life. Through Somatic Enquiry, I was gently guided back into my body. It felt like my mind had shut away parts of me that felt uncomfortable, protecting me from facing them. Now, I have a whole new relationship with my body—its wisdom, energy, and intelligence. I’m able to calm myself more easily and be truly present with my family, friends, and in my life',
       author: 'Steve',
     },
+    imageSrc: somaticPage,
     sections: [
       {
         title: 'What is Somatic Enquiry?',

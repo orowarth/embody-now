@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <main>
+      <main className="main-content">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services/:slug" element={<ServicePage />} />
