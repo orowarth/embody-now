@@ -1,5 +1,3 @@
-/* src/components/Testimonials/Testimonials.css (UPDATED) */
-
 .testimonials-section {
   padding: var(--spacing-xl) 0;
 }
@@ -27,29 +25,15 @@
   padding: var(--spacing-xl);
   border-radius: var(--border-radius-standard);
   box-shadow: var(--box-shadow-subtle);
-  
-  /* 
-    --- THE FIXED SIZE FIX ---
-    Set a min-height large enough for the longest review.
-    450px is a good starting point for Tiffany's review. Adjust if needed.
-  */
   min-height: 450px; 
-  
-  /* 
-    --- THE VERTICAL CENTERING FIX ---
-    We use flexbox on the card itself to center the inner content div.
-  */
   display: flex;
-  align-items: center;     /* Vertical centering */
-  justify-content: center; /* Horizontal centering */
-
-  /* Animation styles are unchanged */
+  align-items: center;
+  justify-content: center;
   opacity: 1;
   transform: translateX(0);
   transition: opacity 0.3s ease-out, transform 0.3s ease-out;
 }
 
-/* This inner wrapper just holds the text content */
 .testimonial-content {
   text-align: center;
 }
@@ -71,10 +55,6 @@
   color: var(--color-primary);
 }
 
-/* 
-  --- BUTTONS REVERTED ---
-  The button styles are back to the external, circular design.
-*/
 .carousel-button {
   position: absolute;
   top: 50%;
@@ -90,7 +70,7 @@
   justify-content: center;
   color: var(--color-primary);
   transition: all 0.2s ease;
-  z-index: 10; /* Ensure buttons are on top of the card */
+  z-index: 10;
 }
 
 .carousel-button:hover {
