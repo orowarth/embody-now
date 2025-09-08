@@ -22,6 +22,29 @@ export interface ServicePageData {
 }
 
 export const services: Record<string, ServicePageData> = {
+  'biodynamic-craniosacral-therapy': {
+    title: 'Biodynamic Craniosacral Therapy',
+    quote: {
+      text: 'I discovered a stillness so deep it felt like coming home. After a few Craniosacral sessions, my body began to release long-held patterns and memories, revealing clarity, balance, and a renewed sense of direction. Sometimes I became the ocean; other times, a vast open space. This work is subtle yet profoundly transformative—an awakening to the incredible intelligence of the body and nature',
+      author: 'Daniel',
+    },
+    imageSrc: cranioPage,
+    sections: [
+      {
+        title: 'What is Biodynamic Craniosacral Therapy?',
+        buttonText: 'Book Now',
+        paragraphs: [
+          'Biodynamic Craniosacral Therapy (BCST) is a gentle, hands-on therapy that supports your body’s natural ability to find balance, release stress, and heal. Rooted in both osteopathic principles and the latest understanding of the nervous system, it offers a unique space of stillness and safety—where your body can soften, your mind can quiet, and deep change can occur.',
+          'Rather than focusing on symptoms or pathology, BCST listens for health. Even in the midst of pain or overwhelm, your body holds an underlying intelligence—a quiet rhythm and order that guides healing. This therapy helps you reconnect with that inner resource and supports your nervous system to shift into repair mode.',
+          'BCST uses a soft, non-invasive touch, often experienced as deeply calming. As a practitioner, I offer a grounded, respectful presence and follow your body’s natural pace. With no pressure or manipulation, your system is invited—not forced—into change. Many people find this creates a profound sense of safety, allowing them to release long-held tension.',
+          'People come to BCST for many reasons: physical discomfort, exhaustion, poor sleep, stress, or a general sense of disconnection. Others are simply drawn to the feeling of being more grounded, alive, and present. Over time, clients often notice lasting changes—not just in the body, but emotionally and energetically too.',
+          'During a session, you’ll remain fully clothed, lying or sitting comfortably. I’ll take time to hear what’s important to you, then gently place my hands on areas like your shoulders, sacrum, feet or head. As your awareness deepens, you may begin to notice sensations—such as warmth, pulsing, small movements, or a feeling of release.',
+          'BCST can also support the resolution of difficult experiences held in the body. When we’ve lived through something overwhelming, our system may get stuck in fight-or-flight. Through this work, the body can gradually unwind those patterns—without needing to revisit the original story.',
+          'Clients often describe feeling calmer, more energised, and more connected after sessions. With regular support, BCST can help you feel less reactive, more resilient, and more at ease in your body and your life.',
+        ],
+      },
+    ],
+  },
   'somatic-qi-gong': {
     title: 'Somatic Qi Gong',
     quote: {
@@ -47,45 +70,6 @@ export const services: Record<string, ServicePageData> = {
       { id: '_zlh-45_He8', title: 'Somatic Qi Gong - Become the Element' },
     ],
   },
-  
-  'biodynamic-craniosacral-therapy': {
-    title: 'Biodynamic Craniosacral Therapy',
-    quote: {
-      text: 'I discovered a stillness so deep it felt like coming home. After a few Craniosacral sessions, my body began to release long-held patterns and memories, revealing clarity, balance, and a renewed sense of direction. Sometimes I became the ocean; other times, a vast open space. This work is subtle yet profoundly transformative—an awakening to the incredible intelligence of the body and nature',
-      author: 'Daniel',
-    },
-    imageSrc: cranioPage,
-    sections: [
-      {
-        title: 'What is Biodynamic Craniosacral Therapy?',
-        buttonText: 'Book Now',
-        paragraphs: [
-          'Biodynamic Craniosacral Therapy (BCST) is a gentle, hands-on therapy that supports your body’s natural ability to find balance, release stress, and heal. Rooted in both osteopathic principles and the latest understanding of the nervous system, it offers a unique space of stillness and safety—where your body can soften, your mind can quiet, and deep change can occur.',
-          'Rather than focusing on symptoms or pathology, BCST listens for health. Even in the midst of pain or overwhelm, your body holds an underlying intelligence—a quiet rhythm and order that guides healing. This therapy helps you reconnect with that inner resource and supports your nervous system to shift into repair mode.',
-          'BCST uses a soft, non-invasive touch, often experienced as deeply calming. As a practitioner, I offer a grounded, respectful presence and follow your body’s natural pace. With no pressure or manipulation, your system is invited—not forced—into change. Many people find this creates a profound sense of safety, allowing them to release long-held tension.',
-          'People come to BCST for many reasons: physical discomfort, exhaustion, poor sleep, stress, or a general sense of disconnection. Others are simply drawn to the feeling of being more grounded, alive, and present. Over time, clients often notice lasting changes—not just in the body, but emotionally and energetically too.',
-          'During a session, you’ll remain fully clothed, lying or sitting comfortably. I’ll take time to hear what’s important to you, then gently place my hands on areas like your shoulders, sacrum, feet or head. As your awareness deepens, you may begin to notice sensations—such as warmth, pulsing, small movements, or a feeling of release.',
-          'BCST can also support the resolution of difficult experiences held in the body. When we’ve lived through something overwhelming, our system may get stuck in fight-or-flight. Through this work, the body can gradually unwind those patterns—without needing to revisit the original story.',
-          'Clients often describe feeling calmer, more energised, and more connected after sessions. With regular support, BCST can help you feel less reactive, more resilient, and more at ease in your body and your life.',
-        ],
-      },
-    ],
-  },
-
-  'retreats-workshops': {
-    title: 'Workshops and Retreats',
-    quote: {
-      text: 'Almost everything will work again if you unplug it for a few minutes, including you.',
-      author: 'Anne Lamott',
-    },
-    sections: [
-      {
-        title: '',
-        paragraphs: ['Coming soon....'],
-      },
-    ],
-  },
-  
   'somatic-enquiry': {
     title: 'Somatic Enquiry',
     quote: {
@@ -104,6 +88,19 @@ export const services: Record<string, ServicePageData> = {
           'Clients often say they feel calmer, more spacious, and more connected to themselves—less caught in thought, and more anchored in presence. Over time, this can support a deeper sense of clarity, regulation, and wellbeing.',
           'Somatic Enquiry is for anyone seeking to build a more trusting relationship with their body and inner world. No previous experience is needed—just an openness to slow down, listen, and be gently guided back to yourself.',
         ],
+      },
+    ],
+  },
+  'retreats-workshops': {
+    title: 'Workshops and Retreats',
+    quote: {
+      text: 'Almost everything will work again if you unplug it for a few minutes, including you.',
+      author: 'Anne Lamott',
+    },
+    sections: [
+      {
+        title: '',
+        paragraphs: ['Coming soon....'],
       },
     ],
   },

@@ -12,6 +12,7 @@ const SocialMediaIcon = () => (<svg xmlns="http://www.w3.org/2000/svg" width="24
 
 export function ContactPage() {
   return (
+    
     <div className="contact-page-wrapper">
       <div className="contact-intro">
         <p>Let's Connect</p>
@@ -23,8 +24,17 @@ export function ContactPage() {
         <div className="contact-details">
           <div className="detail-item">
             <LocationIcon />
-            <h3>BCST Saturday Milford clinic</h3>
-            <p>3 Milford Road, Milford<br/>(through the arcade upstairs in the Your Wellbeing Clinic)</p>
+            <div className="address-block">
+              <h3>Milford Clinic</h3>
+              <h4>Your Wellbeing</h4>
+              <p>3 Milford Road, Milford<br/>(through the arcade upstairs in the Your Wellbeing Clinic)</p>
+            </div>
+            
+            <div className="address-block">
+              <h3>Westmere Clinic</h3>
+              <h4>Seven Senses</h4>
+              <p>100 Westend Road, Westmere</p>
+            </div>
           </div>
 
           {phoneLink && (
@@ -64,10 +74,6 @@ export function ContactPage() {
             <button type="submit" className="contact-submit-button">Send</button>
           </form>
         </div>
-      </div>
-      
-      <div className="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12782.86558850752!2d174.7549617630484!3d-36.777370451876784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d39e71872833b%3A0xb271ce7ec4b60af9!2s3%20Milford%20Road%2C%20Milford%2C%20Auckland%200620%2C%20New%20Zealand!5e0!3m2!1sen!2sau!4v1755086806195!5m2!1sen!2sau" width="600" height="450" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   );

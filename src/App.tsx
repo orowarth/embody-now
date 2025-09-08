@@ -7,7 +7,7 @@ import { ContactPage } from './pages/ContactPage/ContactPage';
 
 function App() {
   return (
-    <div>
+    <div className="app-container">      
       <Navbar />
       <main className="main-content">
         <Routes>

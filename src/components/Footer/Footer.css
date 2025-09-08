@@ -2,6 +2,7 @@
   background-color: var(--color-primary);
   color: var(--color-text-light);
   padding: var(--spacing-lg) var(--spacing-md);
+  margin-top: var(--spacing-xl);
 }
 
 .footer-container {
