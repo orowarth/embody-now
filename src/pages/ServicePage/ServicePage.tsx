@@ -39,6 +39,21 @@ export function ServicePage() {
         </div>
       ))}
 
+      {(data.prices && data.prices.length > 0) && (
+        <div className="service-page-prices-section">
+          {data.prices.map((priceCategory, categoryIndex) => (
+            <div key={categoryIndex} className="price-category">
+              <h3>{priceCategory.title}</h3>
+              <ul>
+                {priceCategory.items.map((item, itemIndex) => (
+                  <li key={itemIndex}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
+
       {(data.videos && data.videos.length > 0) && (
         <div className="videos-container">
           {data.videos.map(video => (

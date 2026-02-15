@@ -14,8 +14,8 @@ const cardDisplayData = [
     className: 'is-offset',
   },
   {
-    slug: 'somatic-qi-gong',
-    title: 'Somatic Qi Gong',
+    slug: 'somatic-flow-qi-gong',
+    title: 'Somatic Flow Qi Gong',
     subtitle: 'transformational mindful movement',
     description: 'Somatic Qi Gong is a gentle, intuitive movement practice that combines traditional Qi Gong with somatic and trauma-informed principles.',
     variant: 'dark',
@@ -49,7 +49,7 @@ export function Treatments() {
         <h2>Treatments & Classes</h2>
         <p>
           Whether through in-person Craniosacral Therapy, online Somatic Enquiry, or weekly
-          online Somatic Qi Gong classes, my work invites you into a space of deep stillness,
+          online Somatic Flow Qi Gong classes, my work invites you into a space of deep stillness,
           inner listening, and embodied awareness. Each pathway is designed to support your nervous system to settle, unwind tension, and reconnect with your body’s innate capacity to heal—always gently, and always at your pace.
         </p>
       </div>

@@ -25,15 +25,9 @@ export function ContactPage() {
           <div className="detail-item">
             <LocationIcon />
             <div className="address-block">
-              <h3>Milford Clinic</h3>
-              <h4>Your Wellbeing</h4>
-              <p>3 Milford Road, Milford<br/>(through the arcade upstairs in the Your Wellbeing Clinic)</p>
-            </div>
-            
-            <div className="address-block">
-              <h3>Westmere Clinic</h3>
-              <h4>Seven Senses</h4>
-              <p>100 Westend Road, Westmere</p>
+              <h3>Mount Eden</h3>
+              <h4>Auckland Craniosacral</h4>
+              <p>38 Rossmay Terrace, Mount Eden, Auckland</p>
             </div>
           </div>
 

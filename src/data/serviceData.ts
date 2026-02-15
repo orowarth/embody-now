@@ -19,6 +19,10 @@ export interface ServicePageData {
     id: string;
     title: string;
   }[];
+  prices?: {
+    title: string;
+    items: string[];
+  }[];
 }
 
 export const services: Record<string, ServicePageData> = {
@@ -44,9 +48,21 @@ export const services: Record<string, ServicePageData> = {
         ],
       },
     ],
+    prices: [
+      {
+        title: 'Treatment Fees',
+        items: [
+          'Initial: $130 (allow 75 minutes)',
+          'Follow up: $115 (allow 60 minutes)',
+          '3 x Session Package: $300 (3 x 60 minutes)',
+          '6 x Session Package: $585 (6 x 60 minutes)',
+          'Mobile Service: Auckland Central (additional $45 per session)',
+        ],
+      },
+    ],
   },
-  'somatic-qi-gong': {
-    title: 'Somatic Qi Gong',
+  'somatic-flow-qi-gong': {
+    title: 'Somatic Flow Qi Gong',
     quote: {
       text: 'When I discovered Qi Gong, I connected with a beauty inside myself I had never known before. Moving with elegance and grace, I felt deeply aligned with the natural flow of life. Through regular practice, I’ve released tension and emotional holding, and I can always shift my state to one of renewed energy and positivity.',
       author: 'Michelle',
@@ -54,10 +70,10 @@ export const services: Record<string, ServicePageData> = {
     imageSrc: qigongBanner,
     sections: [
       {
-        title: 'What is Somatic Qi Gong?',
+        title: 'What is Somatic Flow Qi Gong?',
         buttonText: 'Book Now',
         paragraphs: [
-          'Somatic Qi Gong is a gentle, trauma-informed movement practice that blends the ancient principles of traditional Qi Gong with the embodied presence of Biodynamic Craniosacral Therapy and insights from Polyvagal Theory (the science of the vagus nerve). It offers a space to slow down, connect with your body, and support your nervous system in finding balance and ease.',
+          'Somatic Flow Qi Gong is a gentle, trauma-informed movement practice that blends the ancient principles of traditional Qi Gong with the embodied presence of Biodynamic Craniosacral Therapy and insights from Polyvagal Theory (the science of the vagus nerve). It offers a space to slow down, connect with your body, and support your nervous system in finding balance and ease.',
           'Each weekly online class (held at 9:30am NZT) is shaped by the group itself. At the beginning of each session, I invite participants to share what they’re noticing in their bodies and what they’d like support with. From there, I tune into the field and receive guidance on which forms to offer and how to guide the practice. Movements are offered slowly, with deep respect for individual needs—there’s no pressure to push, perform, or get it “right.”',
           'Practising from the comfort of their own home, many students have said they feel more present, less self-conscious, and free to move at their own pace. This sense of safety and privacy allows for a deeper level of embodiment and self-awareness.',
           'The practice gently supports nervous system regulation, emotional grounding, and the natural flow of energy through the body. It’s especially nourishing for those experiencing stress, fatigue, or overwhelm—or anyone seeking a more conscious, compassionate relationship with themselves.',
@@ -66,8 +82,17 @@ export const services: Record<string, ServicePageData> = {
       },
     ],
     videos: [
-      { id: '5AO_sEQXYO0', title: 'Somatic Qi Gong - Metal Element, Lungs' },
-      { id: '_zlh-45_He8', title: 'Somatic Qi Gong - Become the Element' },
+      { id: '5AO_sEQXYO0', title: 'Somatic Flow Qi Gong - Metal Element, Lungs' },
+      { id: '_zlh-45_He8', title: 'Somatic Flow Qi Gong - Become the Element' },
+    ],
+    prices: [
+      {
+        title: 'Online Somatic Flow Qi Gong',
+        items: [
+          '4 Sessions $45 (45 mins)',
+          'Casual drop in class $20',
+        ],
+      },
     ],
   },
   'somatic-enquiry': {
@@ -87,6 +112,17 @@ export const services: Record<string, ServicePageData> = {
           'Each session unfolds in real time, led by what you’re noticing in the moment. There’s no need to “figure anything out”—we simply listen together, allowing your body to guide the process at its own pace.',
           'Clients often say they feel calmer, more spacious, and more connected to themselves—less caught in thought, and more anchored in presence. Over time, this can support a deeper sense of clarity, regulation, and wellbeing.',
           'Somatic Enquiry is for anyone seeking to build a more trusting relationship with their body and inner world. No previous experience is needed—just an openness to slow down, listen, and be gently guided back to yourself.',
+        ],
+      },
+    ],
+    prices: [
+      {
+        title: 'Online Somatic Enquiry',
+        items: [
+          'Initial: $95 (allow 60 minutes)',
+          'Follow up: $80 (allow 45 minutes)',
+          '3 x Session Package: $210 (3 x 45 minutes)',
+          '6 x Session Package: $395 (6 x 45 minutes)',
         ],
       },
     ],
