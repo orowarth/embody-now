@@ -9,5 +9,5 @@ export const socialLinks = [
   { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=100084958862508', Icon: FacebookIcon },
   { name: 'Instagram', href: 'https://www.instagram.com/embody_now', Icon: InstagramIcon },
   { name: 'YouTube', href: 'https://www.youtube.com/@somaticqigong', Icon: YouTubeIcon },
-  { name: 'Phone', href: 'tel:+64212084213', Icon: PhoneIcon },
+  { name: 'Phone', href: 'tel:+61494408478', Icon: PhoneIcon },
 ];

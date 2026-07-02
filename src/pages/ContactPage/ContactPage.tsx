@@ -25,9 +25,8 @@ export function ContactPage() {
           <div className="detail-item">
             <LocationIcon />
             <div className="address-block">
-              <h3>Mount Eden</h3>
-              <h4>Auckland Craniosacral</h4>
-              <p>38 Rossmay Terrace, Mount Eden, Auckland</p>
+              <h3>Surfcoast Craniosacral</h3>
+              <p>33 Great Ocean Road, Jan Juc</p>
             </div>
           </div>
 
